@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="400" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#090D1F"/>
+      <stop offset="1" stop-color="#1D2452"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="600" y1="104" x2="1030" y2="330" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A78BFA"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="1" height="1" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="16"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="400" rx="28" fill="url(#bg)"/>
+  <circle cx="1040" cy="58" r="160" fill="#5B4BCE" fill-opacity=".22"/>
+  <circle cx="880" cy="355" r="180" fill="#0891B2" fill-opacity=".14"/>
+  <path d="M0 332C230 275 325 388 554 320s361-67 646-10v90H0v-68Z" fill="#111938" fill-opacity=".75"/>
+
+  <text x="76" y="94" fill="#A5B4FC" font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" letter-spacing="3">STUDY SMARTER</text>
+  <text x="72" y="177" fill="#F8FAFC" font-family="Segoe UI,Arial,sans-serif" font-size="62" font-weight="750">Flashcard</text>
+  <text x="72" y="247" fill="url(#accent)" font-family="Segoe UI,Arial,sans-serif" font-size="62" font-weight="750">Generator</text>
+  <text x="76" y="293" fill="#CBD5E1" font-family="Segoe UI,Arial,sans-serif" font-size="20">Turn any topic into focused, interactive study cards.</text>
+  <rect x="76" y="326" width="198" height="38" rx="19" fill="#312E81"/>
+  <circle cx="98" cy="345" r="5" fill="#67E8F9"/>
+  <text x="113" y="351" fill="#E0E7FF" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="600">POWERED BY HUGGING FACE</text>
+
+  <rect x="712" y="112" width="318" height="208" rx="22" fill="#030712" fill-opacity=".38" filter="url(#shadow)"/>
+  <g transform="rotate(-8 815 212)">
+    <rect x="700" y="111" width="258" height="190" rx="20" fill="#F8FAFC"/>
+    <rect x="700" y="111" width="258" height="14" rx="7" fill="#8B5CF6"/>
+    <text x="725" y="164" fill="#64748B" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="1.5">QUESTION 01</text>
+    <text x="725" y="205" fill="#111827" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="700">What powers</text>
+    <text x="725" y="234" fill="#111827" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="700">photosynthesis?</text>
+    <path d="M725 263H918" stroke="#E2E8F0" stroke-width="2" stroke-linecap="round"/>
+    <text x="725" y="286" fill="#7C3AED" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600">CLICK TO REVEAL ANSWER</text>
+  </g>
+  <g transform="rotate(8 997 211)">
+    <rect x="916" y="155" width="216" height="160" rx="20" fill="#DBF4FB"/>
+    <rect x="916" y="155" width="216" height="12" rx="6" fill="#06B6D4"/>
+    <text x="940" y="205" fill="#0E7490" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.2">ANSWER</text>
+    <text x="940" y="242" fill="#164E63" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="700">Light energy from</text>
+    <text x="940" y="268" fill="#164E63" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="700">the sun.</text>
+    <circle cx="1092" cy="285" r="14" fill="#0891B2"/>
+    <path d="m1086 285 4 4 8-9" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
+
